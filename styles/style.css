@@ -9,9 +9,15 @@ html {
     text-align: center;
     overflow:   scroll;
     font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
     
 }  
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 div.text-box {
     height:200px;
